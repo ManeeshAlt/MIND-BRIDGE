@@ -1,0 +1,111 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7; /* Light blue background */
+  color: #004d40; /* Dark teal text color */
+}
+
+header {
+  background-color: #004d40; /* Dark teal background */
+  padding: 1rem;
+  text-align: center;
+}
+.container {  
+    background: #ffffff;
+    width: 450px;
+    padding: 1.5rem;
+    margin: 50px auto;
+    border-radius: 10px;
+    box-shadow: 0 20px 35px rgba(0,0,1,0.9);
+}
+
+header img {
+  max-width: 150px; /* Adjust size as needed */
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: #00695c; /* Teal background */
+}
+
+nav a {
+  color: #e3e3e3;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+nav a:hover {
+  background-color: #004d40; /* Dark teal background on hover */
+  color: #b4e000; /* Light blue text on hover */
+
+}
+
+
+
+.container {
+  padding: 2rem;
+
+}
+
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.form-group input, .form-group select, .form-group textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-group button {
+  background-color: #aad110; /* Dark teal button */
+  color: #f7f7f7;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form-group button:hover {
+  background-color: #00332f; /* Darker teal on hover */
+}
+
+.footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #00695c; /* Teal background */
+  color: #ffffff;
+}
+
+.image-section {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.image-section img {
+  width: 600px;
+  height: 400px;
+  max-width: 100%;
+  height: auto;
+  border: 2px solid #006151;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+span{
+  opacity: .1;
+}
+
+#bottom{
+  margin-bottom: 100vh;
+}
+

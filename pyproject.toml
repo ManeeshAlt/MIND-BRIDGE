@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "repl-html-mindbridge"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "repl_html_mindbridge"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+flask = "^3.0.3"
+openai = "^1.37.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

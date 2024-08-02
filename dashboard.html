@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MindBridge Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome, [User's Name]!</h1>
+        <nav>
+            <a href="dashboard.html">Dashboard</a>
+            <a href="profile.html">Profile</a>
+            <a href="logout.html">Logout</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Select an Option</h2>
+        <div class="options">
+            <div class="option">
+                <h3>AI Chat</h3>
+                <p>Talk to our AI ChatBot for immediate assistance.</p>
+                <button onclick="navigateTo('ai-chat.html')">Start AI Chat</button>
+            </div>
+            <div class="option">
+                <h3>Video Chat</h3>
+                <p>Connect with a therapist via video chat.</p>
+                <button onclick="navigateTo('video-chat.html')">Start Video Chat</button>
+            </div>
+            <div class="option">
+                <h3>Group Chat</h3>
+                <p>Join a group chat with people having similar issues.</p>
+                <button onclick="navigateTo('group-chat.html')">Join Group Chat</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 MindBridge. All rights reserved.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
